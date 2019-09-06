@@ -111,7 +111,7 @@ Now that your IDE is all set up, take some time and get to know it! Read through
 
 <!-- introduction slides about File Systems -->
 
-Now that you've set up your environment, we can start to learn some basic UNIX command line. Unix and Unix-like operating systems, like Linux, can all use the following commands to interact with [file systems](http://homepages.uc.edu/~thomam/Intro_Unix_Text/File_System.html). Basic tasks like changing directories, creating or modifying files, or removing files all together are just a few examples of things we can do using a Shell terminal.
+Now that you've set up your environment, we can start to learn some basic UNIX command line. Unix and [Unix-like operating systems](http://www.doc.ic.ac.uk/~wjk/unixintro/Lecture1.html), like Linux, can all use the following commands to interact with [file systems](http://homepages.uc.edu/~thomam/Intro_Unix_Text/File_System.html). Basic tasks like changing directories, creating or modifying files, or removing files all together are just a few examples of things we can do using a Shell terminal.
 
 To really understand what you'll be doing for this section of the lab, having a strong understanding of what a file system is and how we can navigate it will be critically important.
 
