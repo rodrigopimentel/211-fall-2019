@@ -24,7 +24,7 @@ In this assignment you are expected to work in groups.   Your group will write a
     - ARPANET
     - UNIX operating system
     - The C Language
-    - Altair 8080, first commercially successful personal computer
+    - Altair 8800, first commercially successful personal computer
     - 'C with Classes' and C++
     - References (A list of articles, webpages, books, or other documents that were consulted when working on the assignment)
 
