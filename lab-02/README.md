@@ -60,7 +60,7 @@ As your intuition would suggest, a problem is a task to be performed. It is best
 
 As you can see, the problem solving and implementation phase are separated into different boxes. That's because these processes are somewhat independent and don't explicitly depend on each other.
 
-Take what we now know about algorithms and consider some problem design strategies that can be implemented without any consideration of code, programming, or computer science. Brainstorm and provide three examples with your group in your lab-02 answer document.
+Take what we now know about algorithms and consider some problem design strategies that can be implemented without any consideration of code, programming, or computer science. Brainstorm and provide an example with your group in your lab-02 answer document.
 
 :white_check_mark: Question 3. Example #01 - 
 
