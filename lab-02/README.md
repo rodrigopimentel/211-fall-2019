@@ -65,7 +65,7 @@ Take what we now know about algorithms and consider some problem design strategi
 :white_check_mark: Question 3. Example #01 - 
 
 
-# Part 3. Pseudocode Exercises [45 minutes]
+# Part 3. Pseudocode Exercises [25 minutes]
 
 `Pseudocode` is ths unspoken step in solving any programming or computer science problem. Its a way of writing something that is *almost* code, but is extremely easy for someone to read and parse in plain english. This allows for easy transfer to an actual language by the programmer in the future. Pseudocode is by no means a science, and there is no set syntax or semantics for Pseudocode, but following some basic programmatic structure while writing Pseudocode (like indentation or bracing) would not go amiss. Really good Pseudocode should be able to be read by people who have never seen a programing language before, but don't worry about achieving this level today. For this section it is **highly recommended** you make use of a whiteboard or a piece of paper to write your Pseudocode, as being able to quickly erase errors is useful.
 
