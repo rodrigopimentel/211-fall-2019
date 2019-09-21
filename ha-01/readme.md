@@ -59,7 +59,7 @@ Additionally, the case of the letter should _not_ matter. `A`, `a`, `B`, `b`, et
 
 18.  *Day of the week*. This program takes in three integers, representing `day` `month` `year` in that order, and should output the day of the week associated with the given date. The formula used to calculate the date is:
 
-![Alt text](/ha-1/formula.png "week formula")
+![Alt text](/ha-01/formula.png "week formula")
 
    * _day_ is the day of the month (1, 2, 3, etc.).
    * _century_ is equal to (_year_ / 100). For 2019, century would be 20.
