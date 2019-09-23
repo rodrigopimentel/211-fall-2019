@@ -104,7 +104,7 @@ Convert 1AB to Decimal
 
 :white_check_mark: Question 4. Convert 628 Decimal to Binary.
 
-:white_check_mark: Question 5. Convert 128,472,481 Decimal to Hexadecimal.
+:white_check_mark: Question 5. Convert 128472481 Decimal to Hexadecimal.
 
 :white_check_mark: Question 6. Convert 74F8E9DA Hexadecimal to Binary.
 
