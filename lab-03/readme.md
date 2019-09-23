@@ -16,67 +16,6 @@ The table of contents for this lab is found below.
 
 # Part 1. Number System Conversions [50 minutes]
 
-
-## Binary (Base 2)
-Allowed Digits: [0, 1]
-
-Groups of 1: 0 or 1
-
-With each digit known as a bit, Binary is the number system used by computers to process information. Binary is difficult for us to read because expressing anything meaningful takes far too many bits. All programs get converted into this number system by your computer. Binary digits are limited in use by themselves, but when placed into groups of multiple bits, we can start to form other number systems to represent more complex numbers.
-
-Examples:
-
-0 stands for "false", or "off".
-
-1 stands for "true" or "on".
-
-## Octal (Base 8)
-
-Allowed Digits - [0, 1, 2, 3, 4, 5, 6, 7]
-
-| Decimal | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Octal | 000 | 001 | 010 | 011 | 100 | 101 | 110 | 111 |
-
-Octal is an older method of abbreviating binary. Once upon a time, CPUs were 26 or 36 bits and processed information in Octal. Now that we have 32/64-bit processors, we use Hexadecimal (base 16) as they are both more efficiently divisible by 16.
-
-Example:
-
-Unix file permissions are written in 3 Octal digits, as each bit stands for 1 of 3 permissions (read, write, execute), and there are 3 categories (user, group, others.) 
-rwxr-xr-- translates to 111101100, and would allow the user to read, write, and execute a file, members of a specific group to read and execute the file, and all others to only read the file.
-
-
-## Decimal (Base 10)
-
-Allowed Digits - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-
-Human-readable numbers. This is the system humans are most comfortable with, and (hopefully) the one you are familiar with.
-
-Example:
-
-We'll operate on the assumption no example is needed for the Decimal number system.
-
-## Hexadecimal (Base 16) 
-
-Allowed Digits - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F]
-
-| Decimal | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Hexadecimal | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B| C | D | E | F |
-
-
-Hexadecimal is the modern method of abbreviating binary. With modern processors being either 32/64 bit, they are both most efficiently divided by 16. The Hexadecimal number system is used to define locations in memory, colors on a web page, MAC addresses, error messages, etc.
-
-Example:
-
-Web page colors are frequently written in Hexadecimal. Why? Easy to read, we can encode many colors into a few digits! With 4 Hexadecimal digits (FFFF) we can encode 65,535 unique values, that’s a lot of colors!
-
-### Summary
-
-The digits used to represent a value will vary in both quantity, and legibility, depending on the number system being used; each number system is best suited for a particular task.
-
-Let's look at the maximum value of each system using two digits
-
 ## Number System Conversions
 
 How do we convert between number systems? Let's take a look at some of the different methods we can use to go from one number system to another.
