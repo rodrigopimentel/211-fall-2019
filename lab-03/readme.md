@@ -4,15 +4,13 @@ Welcome to CSC 211 Lab 03. Yor goal for this lab will be to gain a better unders
 
 The table of contents for this lab is found below.
 
-<ol>
-1. Number System Conversions[50 minutes]
-1.1 Examples
-1.2. Problem Set
-2. Branching (Conditionals) [50 minutes]
-2.1. Syntax Review
-1.2. Problem Set
 
-</ol>
+1. Number System Conversions[50 minutes] <br>
+1.1 Examples<br>
+1.2. Problem Set<br>
+2. Branching (Conditionals) [50 minutes]<br>
+2.1. Syntax Review<br>
+2.2. Problem Set<br>
 
 # Part 1. Number System Conversions [50 minutes]
 
