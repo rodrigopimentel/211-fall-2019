@@ -322,6 +322,6 @@ std::cin >> low >> high >> test;
 
 :white_check_mark: Question 10. Implement an algorithm in C++ to print the maximum of three given numbers. This should take three values from the user (in any order) and print out the largest of the three.
 
-# Part 5. Submission [5 minutes]
+# Part 3. Submission [5 minutes]
 
 Each group will submit a single **text file** named `lab-03.txt` containing all your answers to the lab questions on [Gradescope](http://gradescope.com). Instructions to download your `lab-03.txt` file can be found in the IDE introduction page that you read earlier in the lab. For your convenience, that page is relinked [here](https://cs50.readthedocs.io/ide/online/).
