@@ -241,7 +241,7 @@ switch(<value>) {
 ## 2.1. Debugging
 With the introduction of branching we are also introducing your first opportunity to make semantic errors in your code, that is to say bugs. Debugging is a vital step of programming and being able to identify errors as you make them can help to prevent hours of searching later. The following examples of code will all contain errors in some capacity, do your best to determine what that error is, what it will cause the code to do, and how to fix it.
 
-:white_check_mark: Question 1.
+:white_check_mark: Question 8.
 ```c++
 #inclde <iostream>
 int main() {
@@ -257,7 +257,7 @@ int main() {
 }
 ```
 
-:white_check_mark: Question 2.
+:white_check_mark: Question 9.
 ```c++
 #inclde <iostream>
 int main() {
@@ -273,7 +273,7 @@ int main() {
 }
 ```
 
-:white_check_mark: Question 3.
+:white_check_mark: Question 10.
 ```c++
 #inclde <iostream>
 int main() {
@@ -291,19 +291,19 @@ int main() {
 
 ## 2.2. Programming Portion
 <!--- simple branching / switch problem --->
-:white_check_mark: Question 4. Implement an algorithm using C++ that outputs the letter grade to a number grade. You can use a typical grade scheme found [here](https://pages.collegeboard.org/how-to-convert-gpa-4.0-scale).
+:white_check_mark: program1.cpp. Implement an algorithm using C++ that outputs the letter grade to a number grade. You can use a typical grade scheme found [here](https://pages.collegeboard.org/how-to-convert-gpa-4.0-scale).
 
 <!--- forced if/elif/else --->
-:white_check_mark: Question 5. Implement an algorithm using C++ to detect a speeding car, given that the speed limit is 50 mph. This algorithm should have three possible outputs, "Safe" for any speed below the limit, "Pushing your luck" for any speed in the range [50-55]mph, and "Speeding" for any speed greater than 55. 
+:white_check_mark: program2.cpp. Implement an algorithm using C++ to detect a speeding car, given that the speed limit is 50 mph. This algorithm should have three possible outputs, "Safe" for any speed below the limit, "Pushing your luck" for any speed in the range [50-55]mph, and "Speeding" for any speed greater than 55. 
 
 <!--- simple branching --->
-:white_check_mark: Question 6. Implement an algorithm using C++ to determine if a number is prime. This algorithm should have two possible outputs, "Prime" if a number is prime, "Not Prime" otherwise.
+:white_check_mark: program3.cpp. Implement an algorithm using C++ to determine if a number is prime. This algorithm should have two possible outputs, Prime" if a number is prime, "Not Prime" otherwise.
 
 <!--- branching with chars --->
-:white_check_mark: Question 7. Implement an algorithm using C++ to determine if a given letter is capitalized or not. This algorithm should have two possible outputs, "Upper Case" if a letter is capital, "Lower Case" otherwise.
+:white_check_mark: program4.cpp. Implement an algorithm using C++ to determine if a given letter is capitalized or not. This algorithm should have two possible outputs, "Upper Case" if a letter is capital, "Lower Case" otherwise.
 
 <!--- when to not use if/elif/else --->
-:white_check_mark: Question 8. Implement an algorithm using C++ to implement the following rules. Note that a single entry can trigger multiple rules.
+:white_check_mark: program5.cpp. Implement an algorithm using C++ to implement the following rules. Note that a single entry can trigger multiple rules.
 * Output 1 if the number is even.
 * Output 2 if the number is odd.
 * Output 3 if the number is evenly divisible by 2.
@@ -314,13 +314,13 @@ Examples:
 * If 9 is entered, the program would output "24"
 
 <!--- Different conditional tests (!=, && ||) --->
-:white_check_mark: Question 9. Implement an algorithm in C++ to test if a number is within a range given by the user, using a single if statement. This should take three values from the user those being (in order) the lower bound on the range, the upper bound on the range, and then the number to be tested.
+:white_check_mark: program6.cpp. Implement an algorithm in C++ to test if a number is within a range given by the user, using a single if statement. This should take three values from the user those being (in order) the lower bound on the range, the upper bound on the range, and then the number to be tested.
 ```c++
 std::cin >> low >> high >> test;
 // implement a test for [low <= test <= high]
 ```
 
-:white_check_mark: Question 10. Implement an algorithm in C++ to print the maximum of three given numbers. This should take three values from the user (in any order) and print out the largest of the three.
+:white_check_mark: program7.cpp. Implement an algorithm in C++ to print the maximum of three given numbers. This should take three values from the user (in any order) and print out the largest of the three.
 
 # Part 3. Submission [5 minutes]
 
