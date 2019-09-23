@@ -324,4 +324,4 @@ std::cin >> low >> high >> test;
 
 # Part 3. Submission [5 minutes]
 
-Each group will submit a single **text file** named `lab-03.txt` containing all your answers to the lab questions on [Gradescope](http://gradescope.com). Instructions to download your `lab-03.txt` file can be found in the IDE introduction page that you read earlier in the lab. For your convenience, that page is relinked [here](https://cs50.readthedocs.io/ide/online/).
+Each group will submit a single **.zip file** named `lab-03.zip` containing all your answers to the lab questions in your `lab-3.txt` and all of your `.cpp` source code files on Gradescope before the end of your lab section. All submissions should be made by a **group/team**. *Individual submissions will not be accepted*. Instructions to download your lab-03.txt file can be found in the IDE introduction page that you read earlier in the lab. For your convenience, that page is relinked here.
