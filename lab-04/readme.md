@@ -368,7 +368,7 @@ int main(){
 ``` -->
 
 
-:white_check_mark: Question 7. What is the output of the following code?
+:white_check_mark: Question 7. What is the value of sum once this program ends?
 
 ```c++
 #include <iostream>
