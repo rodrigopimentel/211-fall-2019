@@ -16,67 +16,6 @@ The table of contents for this lab is found below.
 
 # Part 1. Number System Conversions [50 minutes]
 
-
-## Binary (Base 2)
-Allowed Digits: [0, 1]
-
-Groups of 1: 0 or 1
-
-With each digit known as a bit, Binary is the number system used by computers to process information. Binary is difficult for us to read because expressing anything meaningful takes far too many bits. All programs get converted into this number system by your computer. Binary digits are limited in use by themselves, but when placed into groups of multiple bits, we can start to form other number systems to represent more complex numbers.
-
-Examples:
-
-0 stands for "false", or "off".
-
-1 stands for "true" or "on".
-
-## Octal (Base 8)
-
-Allowed Digits - [0, 1, 2, 3, 4, 5, 6, 7]
-
-| Decimal | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Octal | 000 | 001 | 010 | 011 | 100 | 101 | 110 | 111 |
-
-Octal is an older method of abbreviating binary. Once upon a time, CPUs were 26 or 36 bits and processed information in Octal. Now that we have 32/64-bit processors, we use Hexadecimal (base 16) as they are both more efficiently divisible by 16.
-
-Example:
-
-Unix file permissions are written in 3 Octal digits, as each bit stands for 1 of 3 permissions (read, write, execute), and there are 3 categories (user, group, others.) 
-rwxr-xr-- translates to 111101100, and would allow the user to read, write, and execute a file, members of a specific group to read and execute the file, and all others to only read the file.
-
-
-## Decimal (Base 10)
-
-Allowed Digits - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-
-Human-readable numbers. This is the system humans are most comfortable with, and (hopefully) the one you are familiar with.
-
-Example:
-
-We'll operate on the assumption no example is needed for the Decimal number system.
-
-## Hexadecimal (Base 16) 
-
-Allowed Digits - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F]
-
-| Decimal | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Hexadecimal | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B| C | D | E | F |
-
-
-Hexadecimal is the modern method of abbreviating binary. With modern processors being either 32/64 bit, they are both most efficiently divided by 16. The Hexadecimal number system is used to define locations in memory, colors on a web page, MAC addresses, error messages, etc.
-
-Example:
-
-Web page colors are frequently written in Hexadecimal. Why? Easy to read, we can encode many colors into a few digits! With 4 Hexadecimal digits (FFFF) we can encode 65,535 unique values, that’s a lot of colors!
-
-### Summary
-
-The digits used to represent a value will vary in both quantity, and legibility, depending on the number system being used; each number system is best suited for a particular task.
-
-Let's look at the maximum value of each system using two digits
-
 ## Number System Conversions
 
 How do we convert between number systems? Let's take a look at some of the different methods we can use to go from one number system to another.
@@ -165,7 +104,7 @@ Convert 1AB to Decimal
 
 :white_check_mark: Question 4. Convert 628 Decimal to Binary.
 
-:white_check_mark: Question 5. Convert 128,472,481 Decimal to Hexadecimal.
+:white_check_mark: Question 5. Convert 128472481 Decimal to Hexadecimal.
 
 :white_check_mark: Question 6. Convert 74F8E9DA Hexadecimal to Binary.
 
@@ -241,7 +180,7 @@ switch(<value>) {
 ## 2.1. Debugging
 With the introduction of branching we are also introducing your first opportunity to make semantic errors in your code, that is to say bugs. Debugging is a vital step of programming and being able to identify errors as you make them can help to prevent hours of searching later. The following examples of code will all contain errors in some capacity, do your best to determine what that error is, what it will cause the code to do, and how to fix it.
 
-:white_check_mark: Question 1.
+:white_check_mark: Question 8.
 ```c++
 #inclde <iostream>
 int main() {
@@ -257,7 +196,7 @@ int main() {
 }
 ```
 
-:white_check_mark: Question 2.
+:white_check_mark: Question 9.
 ```c++
 #inclde <iostream>
 int main() {
@@ -273,7 +212,7 @@ int main() {
 }
 ```
 
-:white_check_mark: Question 3.
+:white_check_mark: Question 10.
 ```c++
 #inclde <iostream>
 int main() {
@@ -291,19 +230,19 @@ int main() {
 
 ## 2.2. Programming Portion
 <!--- simple branching / switch problem --->
-:white_check_mark: Question 4. Implement an algorithm using C++ that outputs the letter grade to a number grade. You can use a typical grade scheme found [here](https://pages.collegeboard.org/how-to-convert-gpa-4.0-scale).
+:white_check_mark: program1.cpp. Implement an algorithm using C++ that outputs the letter grade to a number grade. You can use a typical grade scheme found [here](https://pages.collegeboard.org/how-to-convert-gpa-4.0-scale).
 
 <!--- forced if/elif/else --->
-:white_check_mark: Question 5. Implement an algorithm using C++ to detect a speeding car, given that the speed limit is 50 mph. This algorithm should have three possible outputs, "Safe" for any speed below the limit, "Pushing your luck" for any speed in the range [50-55]mph, and "Speeding" for any speed greater than 55. 
+:white_check_mark: program2.cpp. Implement an algorithm using C++ to detect a speeding car, given that the speed limit is 50 mph. This algorithm should have three possible outputs, "Safe" for any speed below the limit, "Pushing your luck" for any speed in the range [50-55]mph, and "Speeding" for any speed greater than 55. 
 
 <!--- simple branching --->
-:white_check_mark: Question 6. Implement an algorithm using C++ to determine if a number is prime. This algorithm should have two possible outputs, "Prime" if a number is prime, "Not Prime" otherwise.
+:white_check_mark: program3.cpp. Implement an algorithm using C++ to determine if a number is prime. This algorithm should have two possible outputs, Prime" if a number is prime, "Not Prime" otherwise.
 
 <!--- branching with chars --->
-:white_check_mark: Question 7. Implement an algorithm using C++ to determine if a given letter is capitalized or not. This algorithm should have two possible outputs, "Upper Case" if a letter is capital, "Lower Case" otherwise.
+:white_check_mark: program4.cpp. Implement an algorithm using C++ to determine if a given letter is capitalized or not. This algorithm should have two possible outputs, "Upper Case" if a letter is capital, "Lower Case" otherwise.
 
 <!--- when to not use if/elif/else --->
-:white_check_mark: Question 8. Implement an algorithm using C++ to implement the following rules. Note that a single entry can trigger multiple rules.
+:white_check_mark: program5.cpp. Implement an algorithm using C++ to implement the following rules. Note that a single entry can trigger multiple rules.
 * Output 1 if the number is even.
 * Output 2 if the number is odd.
 * Output 3 if the number is evenly divisible by 2.
@@ -314,14 +253,14 @@ Examples:
 * If 9 is entered, the program would output "24"
 
 <!--- Different conditional tests (!=, && ||) --->
-:white_check_mark: Question 9. Implement an algorithm in C++ to test if a number is within a range given by the user, using a single if statement. This should take three values from the user those being (in order) the lower bound on the range, the upper bound on the range, and then the number to be tested.
+:white_check_mark: program6.cpp. Implement an algorithm in C++ to test if a number is within a range given by the user, using a single if statement. This should take three values from the user those being (in order) the lower bound on the range, the upper bound on the range, and then the number to be tested.
 ```c++
 std::cin >> low >> high >> test;
 // implement a test for [low <= test <= high]
 ```
 
-:white_check_mark: Question 10. Implement an algorithm in C++ to print the maximum of three given numbers. This should take three values from the user (in any order) and print out the largest of the three.
+:white_check_mark: program7.cpp. Implement an algorithm in C++ to print the maximum of three given numbers. This should take three values from the user (in any order) and print out the largest of the three.
 
 # Part 3. Submission [5 minutes]
 
-Each group will submit a single **text file** named `lab-03.txt` containing all your answers to the lab questions on [Gradescope](http://gradescope.com). Instructions to download your `lab-03.txt` file can be found in the IDE introduction page that you read earlier in the lab. For your convenience, that page is relinked [here](https://cs50.readthedocs.io/ide/online/).
+Each group will submit a single **.zip file** named `lab-03.zip` containing all your answers to the lab questions in your `lab-3.txt` and all of your `.cpp` source code files on Gradescope before the end of your lab section. All submissions should be made by a **group/team**. *Individual submissions will not be accepted*. Instructions to download your lab-03.txt file can be found in the IDE introduction page that you read earlier in the lab. For your convenience, that page is relinked here.
