@@ -7,11 +7,11 @@ This assignment is primarily focused on control statements and functions. **Arra
 ### Format details
 Your submission will be tested and graded by an autograder, for this reason it cannot be stressed enough that your program must *exactly* follow the specifications for input and output upon submission.
 
-Similarly to the previous assignment, for each problem you will create a program, however, this time you are free to write your own functions and helper functions in order to implement your solution.
+For each problem you will create a program, however, this time you are free to design and write your own functions in order to implement your solution.
 
 > As in the last assignment, you will read input from `std::cin` and print output to `std::cout`. Any print (`cout`) statements other than the expected output **must** be removed prior to submission. Pay special attention to the exact number of whitespaces when printing more complex shapes and patterns.
 
-For details on expected submission instructions, please refer to the **Submission and Grading** section at the bottom of the document.
+For additional details on expected submission instructions, please refer to the **Submission and Grading** section at the bottom of the document.
 
 ### Questions
 
@@ -37,7 +37,7 @@ Write a program which reads a single integer `0 < n < 20` as input and prints ou
 Write a program which reads in a single integer `0 <= n < 30` and prints out the factorial of `n`. Factorials get very big very quickly and can easily exceed the limits of a signed `int` that uses 4 bytes. If the value of factorial of `n` is too large to be stored in an `int` (>`2,147,483,647`), your program should print `Can't handle this`.
 
 #### 4. `pow`
-Write a program which reads in an integer `-15 < n < 15` and an `integer` `0 < k < 10` and prints the value of `n` to the power of `k`.
+Write a program which reads in an integer `-15 < n < 15` and an integer `0 < k < 10` and prints the value of `n` to the power of `k`.
 
 #### 5. `prime`
 Write a program which reads in an integer `0 < n <= 1,000,000,000` and prints `True` if the value is a prime number and `False` if it is not.
@@ -77,7 +77,7 @@ Write a program which takes three integers `0 < {a, b, c} <= 20` as input. The p
 ```
 
 #### 10. `loan_payment`
- Write a program which will read three `double` values: `0 < loan <= 10^10` (the initial loan), 11 `0 <= interest <= .5` (the monthly interest), and `0 < payment <= loan` (the monthly payment) respectively. We will assume that your monthly payment always takes place *after* the loan accrues any interest for that month. We will also assume that there will be a minimum of one month required to pay off any loan. Your program should print out the number of months required to pay off the loan. For example, `500.0` `0.05` `525.0` will output `1`. Input `500.0` `0.05` `499.0` will output `2`. *It is worth noting that a 50% interest rate is very high, you should be aware of this during your local testing as you could easily encounter an infinite loop (scenarios in which the loan will never be paid off). However, you can assume that no such test cases will appear on Gradescope.*
+ Write a program which will read three `double` values: `0 < loan <= 10^10` (the initial loan), `0 <= interest <= .5` (the monthly interest), and `0 < payment <= loan` (the monthly payment) respectively. We will assume that your monthly payment always takes place *after* the loan accrues any interest for that month. We will also assume that there will be a minimum of one month required to pay off any loan. Your program should print out the number of months required to pay off the loan. For example, `500.0` `0.05` `525.0` will output `1`. Input `500.0` `0.05` `499.0` will output `2`. *It is worth noting that a 50% interest rate is very high, you should be aware of this during your local testing as you could easily encounter an infinite loop (scenarios in which the loan will never be paid off). However, you can assume that no such test cases will appear on Gradescope.*
 
 #### 11. `char_pyramid`
 Write a program that reads a single character `'A' <= ch <= 'Z'` as input and prints out a pyramid of characters starting at `A` until it reaches the pyramid's base and stops. See examples below for input values of `ch = 'A'` and `ch = 'C'` respectively.
@@ -136,7 +136,7 @@ Write a program which reads in an integer `0 < n <= 10` prints out this nice rug
 A number is called a *circular prime* if all rotations of its digits form a prime. For example, the number `197` is a circular prime because all possible rotations of its digits: `[197, 971, 719]` are prime numbers. Write a program that reads in an integer `0 <= n < 10^6` as input and prints `True` if `n` is a circular prime and `False` otherwise.
 
 #### 17. `knight_moves`
-Write a program which will read in a sequence of integers.  The first two values (`x y`) represent the starting location of a knight piece on a chess board (as shown in the figure below). The succeeding numbers represent consecutive moves for the knight.  Knight moves are encoded as numbers between `0` and `7` inclusive (see below). 
+Write a program which will read in a sequence of integers.  The first two values (`x y`) represent the starting location of a knight piece on a chess board, considering the coordinate system displayed in the figure below. The succeeding numbers represent consecutive moves for the knight. Knight moves are encoded as numbers between `0` and `7` inclusive, as shown in the figure.
 
 ![Knight Moves](chess.png)
 
