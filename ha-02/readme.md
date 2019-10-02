@@ -138,7 +138,7 @@ A number is called a *circular prime* if all rotations of its digits form a prim
 #### 17. `knight_moves`
 Write a program which will read in a sequence of integers.  The first two values (`x y`) represent the starting location of a knight piece on a chess board (as shown in the figure below). The succeeding numbers represent consecutive moves for the knight.  Knight moves are encoded as numbers between `0` and `7` inclusive (see below). 
 
-![Knight Moves](chess_knight.jpg)
+![Knight Moves](chess.png)
 
 Your program should continuously track the location of the knight after each move until there are no more moves to read. Your program should then print out the final location of the knight in the format `<x> <y>`. If at any point during runtime, the knight is told to move off of the board, your program should print `Invalid sequence` and terminate.
 
