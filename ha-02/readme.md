@@ -64,7 +64,7 @@ Write a program that reads in an integer `0 < n < 10` as input and prints out an
 ```
 
 #### 9. `draw_triangle_3`
-Write a program which takes three integers `a, b, c` as input, such that `0 < {a, b, c} <= 20` and `a <= b`. The program should print the `+` character `a` times, then `a + c` times, then `a + c + c` times, and so on. This pattern should repeat while the line is at most `b` characters long. At that point, the pattern is repeated backwards. For example input `4 7 1` will output:
+Write a program which reads in three integers `a, b, c`, such that `0 < {a, b, c} <= 20` and `a <= b`. The program should print the `+` character `a` times, then `a + c` times, then `a + c + c` times, and so on. This pattern should repeat while the line is at most `b` characters long. At that point, the pattern is repeated backwards. For example input `4 7 1` will output:
 ```
 ++++
 +++++
