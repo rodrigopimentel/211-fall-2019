@@ -95,7 +95,7 @@ int pow(int a, int b) {
 
 Let's take a look at how you did. Now, use the CS50 debugging tool to trace the values of this program's variables. Set a breakpoint on the first line of main() `int x = 2;` and run the debugger.
 
-:white_check_mark: Question 1. What is the current value of a reported by the debugger at the breakpoint we set? Why is it that value?
+:white_check_mark: Question 1. What is the current value of x reported by the debugger at the breakpoint we set? Why is it that value?
 
 :white_check_mark: Question 2. Was your program trace similar to the debugger? If not, what were the differences and why?
 
