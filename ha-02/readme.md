@@ -46,7 +46,7 @@ Write a program which reads in an integer `0 < n <= 1,000,000,000` and prints `T
 Write a program which reads in two integers `1 <= n <= 10,000` and `1 <= s <= n` and returns the sum of the last `s` elements in the sequence from `1` to `n` (inclusive). For example, if the input is `20 4` the output would be `74`.
 
 #### 7. `sum_even`
-Write a program that reads an integer `0 < n < 2^32`, returns the sum of all **digits** in `n` that are divisible by `2`. For example, if `n = 341238` the output would be `14`, because it is the sum of `4 + 2 + 8`. Hint: an `int` may not be enough.
+Write a program that reads an integer `0 < n < 2^32`, returns the sum of all **digits** in `n` that are divisible by `2`. For example, if `n = 341238` the output would be `14`, because it is the sum of `4 + 2 + 8`. Hint: a signed `int` may not be enough.
 
 #### 8. `x_of_stars`
 Write a program that reads in an integer `0 < n < 10` as input and prints out an X of that height made of `*` characters. If the input is not an odd number, it should print `Sorry, not odd`. See examples below for input values of `n = 3` and `n = 5` respectively.
