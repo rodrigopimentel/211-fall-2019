@@ -99,7 +99,7 @@ Write a program which reads in three integers `r, g, b` representing RGB values 
 Write a program that reads in an integer `0 < n <= 10^9` as input and checks whether `n` is an *armstrong number* or not. An armstrong number is a number that is equal to the sum of its own digits raised to the power of the number of digits. For example `1634` is an armstrong number, since `1^4 + 6^4 + 3^4 + 4^4 = 1634`. Your program will print `True` if `n` is an armstrong number, and `False` otherwise.
 
 #### 14. `perfect`
-A *perfect number* is a number for which the sum of its *proper divisors* is exactly equal to the number. For example, the sum of the proper divisors of `28` would be `1 + 2 + 4 + 7 + 14 = 28`, which means that `28` is a perfect number. Write a program that reads in an integer `0 < x <= 10^9` and prints `True` if `x` is a perfect number and `False` otherwise.
+A *perfect number* is a number for which the sum of its *proper divisors* is exactly equal to the number. For example, the sum of the proper divisors of `28` would be `1 + 2 + 4 + 7 + 14 = 28`, which means that `28` is a perfect number. Write a program that reads in an integer `0 < x <= 10^5` and prints `True` if `x` is a perfect number and `False` otherwise.
 
 #### 15. `a_lovely_rug`
 Write a program which reads in an integer `0 < n <= 10` prints out this nice rug pattern. See examples below for input values of `n = 2`, `n = 3`, and `n = 4` respectively.
