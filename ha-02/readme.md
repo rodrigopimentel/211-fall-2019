@@ -37,7 +37,7 @@ Write a program which reads a single integer `0 < n < 20` as input and prints ou
 Write a program which reads in a single integer `0 <= n < 30` and prints out the factorial of `n`. Factorials get very big very quickly and can easily exceed the limits of a signed `int` that uses 4 bytes. If the value of factorial of `n` is too large to be stored in an `int` (>`2,147,483,647`), your program should print `Can't handle this`.
 
 #### 4. `pow`
-Write a program which reads in an integer `-15 < n < 15` and an integer `0 < k < 10` and prints the value of `n` to the power of `k`.
+Write a program which reads in an integer `-15 < n < 15` and an integer `0 < k < 10` and prints the value of `n` to the power of `k`. **Cannot use the built-in function pow**.
 
 #### 5. `prime`
 Write a program which reads in an integer `0 < n <= 1,000,000,000` and prints `True` if the value is a prime number and `False` if it is not.
