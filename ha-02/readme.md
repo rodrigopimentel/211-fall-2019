@@ -135,7 +135,7 @@ Write a program which reads in an integer `0 < n <= 10` prints out this nice rug
 ```
 
 #### 16. `circular_prime`
-A number is called a *circular prime* if all rotations of its digits form a prime. For example, the number `197` is a circular prime because all possible rotations of its digits: `[197, 971, 719]` are prime numbers. Write a program that reads in an integer `0 <= n < 10^6` as input and prints `True` if `n` is a circular prime and `False` otherwise.
+A number is called a *circular prime* if all rotations of its digits form a prime. For example, the number `197` is a circular prime because all possible rotations of its digits: `[197, 971, 719]` are prime numbers. Write a program that reads in an integer `1 <= n <= 10^5` as input and prints `True` if `n` is a circular prime and `False` otherwise.
 
 #### 17. `knight_moves`
 Write a program which will read in a sequence of integers.  The first two values (`x y`) represent the starting location of a knight piece on a chess board, considering the coordinate system displayed in the figure below. The succeeding numbers represent consecutive moves for the knight. Knight moves are encoded as numbers between `0` and `7` inclusive, as shown in the figure.
