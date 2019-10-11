@@ -90,7 +90,7 @@ As the documentation says, getline() will append a null terminator to the end of
 
 :white_check_mark: Program 4. Implement in C++ a function with the following header `void reverse(char str[])` that will reverse the `str` parameter.
 
-:white_check_mark: Program 5. Implement in C++ a function with the following header `void remove(char str[], char a)` that will remove the first occurence of character `a` from the `str` parameter. (Note: you will have to shift over the rest of the string after removeing the character)
+:white_check_mark: Program 5. Implement in C++ a function with the following header `void remove(char str[], char a)` that will remove the first occurence of character `a` from the `str` parameter. (Note: you will have to shift over the rest of the string after removing the character)
 
 :white_check_mark: Program 6. Implement in C++ a function with the following header `void all_to(char str[], bool caps)` that will change all of the characters in the `str` parameter to their uppercase equivalent if `caps` is True or change all of the character in `str` to their lowercase equivalent if `caps` is False.
 
