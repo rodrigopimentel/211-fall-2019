@@ -77,7 +77,7 @@ Write a program which reads in three integers `a, b, c`, such that `0 < {a, b, c
 ```
 
 #### 10. `loan_payment`
- Write a program which will read three `double` values: `0 < loan <= 10^10` (the initial loan), `0 <= interest <= .5` (the monthly interest), and `0 < payment <= loan` (the monthly payment) respectively. We will assume that your monthly payment always takes place *after* the loan accrues any interest for that month. We will also assume that there will be a minimum of one month required to pay off any loan. Your program should print out the number of months required to pay off the loan. For example, `500.0` `0.05` `525.0` will output `1`. Input `500.0` `0.05` `499.0` will output `2`.
+ Write a program which will read three `double` values: `0 < loan <= 10^10` (the initial loan), `0 <= interest <= .5` (the monthly interest), and `0 < payment <= loan` (the monthly payment) respectively. We will assume that your monthly payment always takes place *after* the loan accrues any interest for that month. We will also assume that there will be a minimum of one month required to pay off any loan. Your program should print out the number of months required to pay off the loan. For example, input `500.0` `0.05` `499.0` will output `2`.
 
 > It is worth noting that a 50% interest rate is just an upper bound, you should be aware of this during your local testing as you could easily encounter an infinite loop (scenarios in which the loan will never be paid off). However, you can assume that no such test cases will appear on Gradescope.
 
