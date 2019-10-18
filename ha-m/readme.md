@@ -17,7 +17,7 @@ This program will read in two arguments, first a _decimal_  number and second, a
 #### 3. `day_of_the_week` 
 This program takes in three integers, representing `day` `month` `year` in that order, and should output the day of the week associated with the given date. The formula used to calculate the date is:
 
-![Alt text](/ha-makeup/formula.png "week formula")
+![Formula](formula.png)
 
    * _day_ is the day of the month (1, 2, 3, etc.).
    * _century_ is equal to (_year_ / 100). For 2019, century would be 20.
