@@ -6,7 +6,7 @@ Welcome to CSC 211 Lab 07. Your goal for this lab will be to gain a better under
 2. Selection Sort Slides [20 minutes]<br> 
 3. Insertion Sort [50 minutes] <br>
     3.1 Visualization [10 minutes] <br>
-    3.2 Implementation [10 minutes] <br>
+    3.2 Implementation [40 minutes] <br>
 4. Submission [5 minutes]
 
 # Part 1. Bubble Sort Slides [20 minutes]
