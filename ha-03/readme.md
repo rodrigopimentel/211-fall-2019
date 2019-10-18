@@ -1,4 +1,4 @@
-## Homework Assignment 03 (10/27)
+## Homework Assignment 03 (10/28)
 
 This assignment is primarily focused on arrays, strings, and functions. One of the goals of the assignment is that you **develop your own functions**, instead of using built-in libraries. You will complete the assignment individually. The assignment is worth a total of 100 points. If you have any questions or need any help, please visit us during office hours and/or post questions on Piazza.
 
