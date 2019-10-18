@@ -9,14 +9,20 @@ Welcome to CSC 211 Lab 07. Your goal for this lab will be to gain a better under
 
 # Part 1. Bubble Sort Slides [20 minutes]
 
+![Alt Text](./images/movie-bubbleg.gif)
+
 :white_check_mark: Question 1. Considering the bubble sort algorithm we've just discussed, how many swaps are necessary to sort the following sequence? `[2, 13, 6, 9, 3, 10, 8, 1, 5, 11]`
 
 # Part 2. Selection Sort Slides [20 minutes]
+
+![Alt Text](./images/movie-selectiong.gif)
 
 :white_check_mark: Question 2. Considering the selection sort algorithm we've just discussed, how many swaps are necessary to sort the following sequence? `[2, 13, 6, 9, 3, 10, 8, 1, 5, 11]`
 
 
 # Part 3. Insertion Sort [50 minutes]
+
+![Alt Text](./images/movie-insertiong.gif)
 
 Consider the pseudocode below:
 <img src="images/insert.jpg">
