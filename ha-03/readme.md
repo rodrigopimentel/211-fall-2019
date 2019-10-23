@@ -47,7 +47,7 @@ Write a program that reads an input string and removes all its consecutive dupli
 Write a program that reads a string as input and prints its *hash value*. The hash value for this problem is defined as the sum of all characters in the string, in fact, the sum of their ascii values. Length of the input string: `1 <= n <= 100`.
 
 #### 7. `diameter`
-Write a program that reads a sequence of `1 <= n <= 50` 2D points, and calculates the diameter, which is the largest euclidean distance between any pair of such points. The input will be a sequence of `x1 y1 x2 y2 ... xn yn` integer values, and the output must be an integer representing the floor of the diameter.  The number of points in the sequence can be anything between `1` and `100` (inclusive).
+Write a program that reads a sequence 2D points, and calculates the diameter, which is the largest euclidean distance between any pair of such points. The input will be a sequence of `x1 y1 x2 y2 ... xn yn` integer values, and the output must be an integer representing the floor of the diameter.  The number of 2D points in the sequence can be anything between `1` and `100` (inclusive).
 
 #### 8. `unique`
 Write a program that reads a string of characters and prints out the number of unique characters in the array. For example if the input is `CSC 211 c++`, the output should be `7`, as there are `7` unique characters `CS 21c+`. Length of the input string: `1 <= n <= 100`.
