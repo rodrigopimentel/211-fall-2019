@@ -32,25 +32,25 @@ std::cout << "Hello " << name << "!\n";
 Write a program which reads a sequence of `0 < n <= 100` integers as input and prints out the number of occurrences of the first integer in the entire sequence. For example, if the input is `7 1 3 6 7 -10 98 11 7`, output should be `3` as `7` occurs `3` times.
 
 #### 2. `palindrome`
-Write a program that reads in a string of characters and prints out `True` if the string is palindrome and `False`, otherwise. A palindrome is a string that reads the same backward and forward. For example: `Tacocat`.  Your program must not be case-sensitive.
+Write a program that reads in a string of characters and prints out `True` if the string is palindrome and `False`, otherwise. A palindrome is a string that reads the same backward and forward. For example: `Tacocat`.  Your program must not be case-sensitive. Length of the input string: `1 <= n <= 100`.
 
 #### 3. `reverse`
-Write a program which reads in a string of characters and prints out the same characters in reverse order. For example, if the input is `Alright, alright, alright`, output must be `thgirla ,thgirla ,thgirlA`.  Note that your program must be case sensitive.
+Write a program which reads in a string of characters and prints out the same characters in reverse order. For example, if the input is `Alright, alright, alright`, output must be `thgirla ,thgirla ,thgirlA`.  Note that your program must be case sensitive. Length of the input string: `1 <= n <= 100`.
 
 #### 4. `sorted`
 Write a program which reads a sequence of `0 < n <= 100` integers as input and prints `Sorted` if the input sequence is sorted in nonincreasing order and `Not Sorted` otherwise.
 
 #### 5. `filter_dups`
-Write a program that reads an input string and removes all its consecutive duplicates. For example, if the input string is `Trrryyyyy             Agaiinnnn`, the output should be `Try Again`.  Your program must be case-sensitive.
+Write a program that reads an input string and removes all its consecutive duplicates. For example, if the input string is `Trrryyyyy             Agaiinnnn`, the output should be `Try Again`.  Your program must be case-sensitive. Length of the input string: `1 <= n <= 100`.
 
 #### 6. `str_hash`
-Write a program that reads a string as input and prints its *hash value*. The hash value for this problem is defined as the sum of all characters in the string, in fact, the sum of their ascii values.
+Write a program that reads a string as input and prints its *hash value*. The hash value for this problem is defined as the sum of all characters in the string, in fact, the sum of their ascii values. Length of the input string: `1 <= n <= 100`.
 
 #### 7. `diameter`
 Write a program that reads a sequence of 2D points, and calculates the diameter, which is the largest euclidean distance between any pair of such points. The input will be a sequence of `x1 y1 x2 y2 ... xn yn` values, and the output must be an integer representing the floor of the diameter.  The number of points in the sequence can be anything between `1` and `100` (inclusive).
 
 #### 8. `unique`
-Write a program that reads a string of characters and prints out the number of unique characters in the array. For example if the input is `CSC 211 c++`, the output should be `7`, as there are `7` unique characters `CS 21c+`.
+Write a program that reads a string of characters and prints out the number of unique characters in the array. For example if the input is `CSC 211 c++`, the output should be `7`, as there are `7` unique characters `CS 21c+`. Length of the input string: `1 <= n <= 100`.
 
 #### 9. `same_gmail`
 Create a program that reads in two strings separated by a whitespace, which are two valid gmail addresses.  Your program should print `True` if both addresses map to the same gmail address and `False` otherwise.  According to gmail:
