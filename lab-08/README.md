@@ -175,7 +175,7 @@ As covered in lecture, the short answer; arrays are themselves references. This 
 
 :white_check_mark: 6. Write a program that will store 3 exam grades for 4 students as amultidimensional array, and a function to calculate the average for each student, and another function to calculate the average for each exam. 
 
-# part 3. Dynamic Memory (New / Delete)
+# Part 3. Dynamic Memory (New / Delete)
 
 Dynamic memory is memory stored on what is known as the **heap**. This is where values that are unknown at compile time, hence not valid for the stack, are going to have to be stored. This allows for us to store things like variable length arrays in a program and operate on them accordingly.
 
