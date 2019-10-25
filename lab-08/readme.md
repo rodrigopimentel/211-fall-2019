@@ -187,7 +187,7 @@ Dynamic memory is allocated using operator `new`. `new` is followed by a data ty
 `pointer = new type [number_of_elements]`
 
 
-The first expression is used to allocate memory to contain one single element of type type. The second one is used to allocate a block (an array) of elements of type type, where number_of_elements is an integer value representing the amount of these. For example:
+The first expression is used to allocate memory to contain one single element of type type. The second one is used to allocate a block (an array) of elements of type type, where number_of_elements is an integer value representing the amount of these. For example, consider the code below:
 
 ```c++
 int * foo;
@@ -203,7 +203,11 @@ Here, foo is a pointer, and thus, the first element pointed to by foo can be acc
 
 There is a substantial difference between declaring a normal array and allocating dynamic memory for a block of memory using new. The most important difference is that the size of a regular array needs to be a constant expression, and thus its size has to be determined at the moment of designing the program, before it is run, whereas the dynamic memory allocation performed by new allows to assign memory during runtime using any variable value as size.
 
-The dynamic memory requested by our program is allocated by the system from the memory heap. However, computer memory is a limited resource, and it can be exhausted. Therefore, there are no guarantees that all requests to allocate memory using operator new are going to be granted by the system.
+The dynamic memory requested by our program is allocated by the system from the memory heap. However, computer memory is a limited resource, and it can be exhausted. Therefore, there are no guarantees that all requests to allocate memory using operator new are going to be granted by the system. We can see this behavior in memory for the exact block of code you just saw using the `new` command.
+
+![Document Image 4](./images/ss5.png)
+
+Notice that this array was allocated on the `heap` because of the `new` command.
 
 C++ provides two standard mechanisms to check if the allocation was successful:
 
