@@ -3,13 +3,13 @@
 Welcome to CSC 211 Lab 08. Your goal for this lab will be to gain a better understanding of pointers. **Be sure to read and follow all instructions unless otherwise specified.**  Create a `lab-08.txt` document to record all of your lab answers in and implement all of your `.cpp` programs in your IDE. Some of the language in this lab has been adopted from `cplusplus.com/doc/tutorial/dynamic/`.
 
 1. C-style pointers<br> 
-2. Multidimensional arrays<br>
+2. Multidimensional Arrays<br>
 3. Dynamic Memory (New / Delete) <br>
 3.1 Operators new and new[] <br>
 3.2 Operators delete and delete[] <br>
 4. Submission <br>
 
-# Part 1. C-style pointers
+# Part 1. C-style Pointers
 As we learned in class, a pointer (\*) is a reference to a memory address. By itself, a pointer cannot help us perform most of the tasks we've grown accustomed to doing, such as storing data. Instead, pointers allow us to pass data around our program in a different manner than we have been doing thus far, allocate memory during the programs execution, and even store pointers to functions into arrays, allowing us to pass some value to multiple functions via a loop. What fun!
 
 The focus of today's lab will be the simplest of pointer usage; to pass a variable's memory address to a function.
@@ -119,7 +119,7 @@ int main() {
 
 ```
 
-# Part 2. Multi-dimensional arrays
+# Part 2. Multi-dimensional Arrays
 
 Multi-dimensional arrays allow us to *gasp* store multiple dimensions worth of data!
 
