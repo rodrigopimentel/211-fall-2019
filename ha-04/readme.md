@@ -201,6 +201,6 @@ Your output should be a single char either `R` or `B` which your point p has bee
 
 ### Submission and Grading
 ---
-To submit your solution to Gradescope, simply select the files you wish to submit and use the "drag and drop" option, rather than using a .zip file. Your programs will be automatically graded. For each of the questions you either pass the test cases (full points) or not (zero points).
+To submit your solution to Gradescope, simply select the files you wish to submit and use the "drag and drop" option.  Name your files `main_q.cpp`, where `q` is the question number you are solving. Your programs will be automatically graded. For each of the questions you either pass the test cases (full points) or not (zero points).
 
 > You must be reminded that students caught cheating or plagiarizing will receive `no credit`. Additional actions, including a failing grade in the class or referring the case for disciplinary action, may also be taken.
