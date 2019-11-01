@@ -3,13 +3,13 @@
 Welcome to CSC 211 Lab 08. Your goal for this lab will be to gain a better understanding of pointers. **Be sure to read and follow all instructions unless otherwise specified.**  Create a `lab-08.txt` document to record all of your lab answers in and implement all of your `.cpp` programs in your IDE. Some of the language in this lab has been adopted from `cplusplus.com/doc/tutorial/dynamic/`.
 
 1. C-style pointers<br> 
-2. Multidimensional arrays<br>
+2. Multidimensional Arrays<br>
 3. Dynamic Memory (New / Delete) <br>
 3.1 Operators new and new[] <br>
 3.2 Operators delete and delete[] <br>
 4. Submission <br>
 
-# Part 1. C-style pointers
+# Part 1. C-style Pointers
 As we learned in class, a pointer (\*) is a reference to a memory address. By itself, a pointer cannot help us perform most of the tasks we've grown accustomed to doing, such as storing data. Instead, pointers allow us to pass data around our program in a different manner than we have been doing thus far, allocate memory during the programs execution, and even store pointers to functions into arrays, allowing us to pass some value to multiple functions via a loop. What fun!
 
 The focus of today's lab will be the simplest of pointer usage; to pass a variable's memory address to a function.
@@ -119,7 +119,7 @@ int main() {
 
 ```
 
-# Part 2. Multi-dimensional arrays
+# Part 2. Multi-dimensional Arrays
 
 Multi-dimensional arrays allow us to *gasp* store multiple dimensions worth of data!
 
@@ -175,7 +175,7 @@ As covered in lecture, the short answer; arrays are themselves references. This 
 
 :white_check_mark: 6. Write a program that will store 3 exam grades for 4 students as amultidimensional array, and a function to calculate the average for each student, and another function to calculate the average for each exam. 
 
-# part 3. Dynamic Memory (New / Delete)
+# Part 3. Dynamic Memory (New / Delete)
 
 Dynamic memory is memory stored on what is known as the **heap**. This is where values that are unknown at compile time, hence not valid for the stack, are going to have to be stored. This allows for us to store things like variable length arrays in a program and operate on them accordingly.
 
@@ -187,7 +187,7 @@ Dynamic memory is allocated using operator `new`. `new` is followed by a data ty
 `pointer = new type [number_of_elements]`
 
 
-The first expression is used to allocate memory to contain one single element of type type. The second one is used to allocate a block (an array) of elements of type type, where number_of_elements is an integer value representing the amount of these. For example:
+The first expression is used to allocate memory to contain one single element of type type. The second one is used to allocate a block (an array) of elements of type type, where number_of_elements is an integer value representing the amount of these. For example, consider the code below:
 
 ```c++
 int * foo;
@@ -203,7 +203,11 @@ Here, foo is a pointer, and thus, the first element pointed to by foo can be acc
 
 There is a substantial difference between declaring a normal array and allocating dynamic memory for a block of memory using new. The most important difference is that the size of a regular array needs to be a constant expression, and thus its size has to be determined at the moment of designing the program, before it is run, whereas the dynamic memory allocation performed by new allows to assign memory during runtime using any variable value as size.
 
-The dynamic memory requested by our program is allocated by the system from the memory heap. However, computer memory is a limited resource, and it can be exhausted. Therefore, there are no guarantees that all requests to allocate memory using operator new are going to be granted by the system.
+The dynamic memory requested by our program is allocated by the system from the memory heap. However, computer memory is a limited resource, and it can be exhausted. Therefore, there are no guarantees that all requests to allocate memory using operator new are going to be granted by the system. We can see this behavior in memory for the exact block of code you just saw using the `new` command.
+
+![Document Image 4](./images/ss5.png)
+
+Notice that this array was allocated on the `heap` because of the `new` command.
 
 C++ provides two standard mechanisms to check if the allocation was successful:
 
