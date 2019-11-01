@@ -4,8 +4,8 @@ This assignment is primarily focused on functions and multidimensional arrays. T
 
 > If you need to post any of your actual source code on Piazza for any reason, **please** be sure to tag the post as being *visible to instructors only*, so that you don't inadvertently share code with others and violate class rules.
 
------
 ### Pair programming
+-----
 Pair programming is a common software development technique where two programmers share a single computer/workstation during development. One "driver" controls the keyboard and types the actual code, the "navigator" checks each line of code as it is typed in, looking mistakes errors such as spelling, syntax, or logical errors. The two should switch roles frequently in order to keep a fresh perspective on the current problem. This technique is meant to allow both programmers to bring their own knowledge and ideas to the task, catch potential bugs, and improve the overall quality of the code.
 
 For this assignment, we are allowing you the option to pick  a *single* partner with whom you will work to complete the assignment. We feel that this will be a good chance, not only to experience pair programming, but to hopefully gain knowledge by working with someone else.
