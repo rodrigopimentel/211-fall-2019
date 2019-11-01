@@ -4,6 +4,7 @@ This assignment is primarily focused on functions and multidimensional arrays. T
 
 > If you need to post any of your actual source code on Piazza for any reason, **please** be sure to tag the post as being *visible to instructors only*, so that you don't inadvertently share code with others and violate class rules.
 
+-----
 ### Pair programming
 Pair programming is a common software development technique where two programmers share a single computer/workstation during development. One "driver" controls the keyboard and types the actual code, the "navigator" checks each line of code as it is typed in, looking mistakes errors such as spelling, syntax, or logical errors. The two should switch roles frequently in order to keep a fresh perspective on the current problem. This technique is meant to allow both programmers to bring their own knowledge and ideas to the task, catch potential bugs, and improve the overall quality of the code.
 
@@ -13,6 +14,7 @@ For this assignment, we are allowing you the option to pick  a *single* partner 
 If you choose to work with a partner, please make sure to submit together to Gradescope as a group. You may **not** share your code with others outside your group.
 
 ### Format details
+---
 Your submission will be tested and graded by an autograder, for this reason it cannot be stressed enough that your program must *exactly* follow the specifications for input and output upon submission.
 
 For each problem you will create a program, you are free to design your own helper functions in order to implement your solution.
@@ -22,6 +24,7 @@ For each problem you will create a program, you are free to design your own help
 For additional details on expected submission instructions, please refer to the **Submission and Grading** section at the bottom of the document.
 
 ### Programs
+---
 We discussed how to store a 2D array in class using a double pointer, however if you wish to explore different options, there are some other methods you may use for this assignment. The `std::vector` library for C++ is a very useful tool which is quite easy to learn and adapt to, there is documentation available online and your TAs can answer any questions you may have about it on Piazza. Alternatively, if you want to try something professional which makes matrices easy to pass to functions, you could try implementing a 2D array via a 1D array using row-major order. If you wish to attempt either of these, feel free to post any questions on the forum.
 
 #### 1. `sudoku_checker`
@@ -197,6 +200,7 @@ Once you have this information, you should find and record the point closest to 
 Your output should be a single char either `R` or `B` which your point p has been classified as.
 
 ### Submission and Grading
+---
 To submit your solution to Gradescope, simply select the files you wish to submit and use the "drag and drop" option, rather than using a .zip file. Your programs will be automatically graded. For each of the questions you either pass the test cases (full points) or not (zero points).
 
 > You must be reminded that students caught cheating or plagiarizing will receive `no credit`. Additional actions, including a failing grade in the class or referring the case for disciplinary action, may also be taken.
