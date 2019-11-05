@@ -59,7 +59,7 @@ As input, you will be given a filled Sudoku board composed of a 9 x 9 grid where
 For example, the solved puzzle case above:
 ```
 5 3 4 6 7 8 9 1 2
-6 7 2 1 9 5 3 8 4
+6 7 2 1 9 5 3 4 8
 1 9 8 3 4 2 5 6 7
 8 5 9 7 6 1 4 2 3
 4 2 6 8 5 3 7 9 1
