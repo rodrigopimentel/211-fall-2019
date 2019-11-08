@@ -175,7 +175,7 @@ For the purpose of this assignment, we will be asking you to do a simplified ver
 3. There will never be a tie as to what an object will be classified as.
 
 ##### Input
-As input you will be given on the first line `n` and `k` followed by `1 <= n <= 100` lines each containing a pre-classified point. `n` is the number of pre-classified points given, ` 1 <= k <= n` is the number of nearest neighbors you will use to classify your unknown point. Each of the pre-classified points will represented on separate lines in the form `x y c` where `x` and `y` are the Cartesian coordinates of the point `-100.0 <= x,y <= 100.0` and `c` is its label, either `R` or `B`. Finally on the last line you will receive in the format `x y`, the Cartesian coordinates of the point which should be classified. For example
+As input you will be given on the first line `n` and `k` followed by `1 <= n <= 100` lines each containing a pre-classified point. `n` is the number of pre-classified points given, ` 1 <= k <= n` is the number of nearest neighbors you will use to classify your unknown point. Each of the pre-classified points will be represented on separate lines in the form `x y c` where `x` and `y` are the Cartesian coordinates of the point `-100.0 <= x,y <= 100.0` and `c` is its label, either `R` or `B`. Finally on the last line you will receive, in the format `x y`, the Cartesian coordinates of the point which should be classified. For example:
 
 ```
 10 3
