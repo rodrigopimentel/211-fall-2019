@@ -4,7 +4,7 @@ Welcome to CSC 211 Lab 10. Your goal for this lab will be to gain a better under
 
 1. Recursive Stack Behavior<br>
 2. Recursion Trees<br>
-3. Practive Stack and Tree Problems<br>
+3. Practice Stack and Tree Problems<br>
 4. Advanced Recursion<br>
 
 # 1. Recursive Stack Behavior
