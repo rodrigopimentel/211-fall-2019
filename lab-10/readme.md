@@ -186,13 +186,13 @@ The 4 solutions pointed out above are shown expanded here.
 - Draw this out! This will be infinitely easier if you draw the trace of what you expect to be happening, and compare it to a drawing of the trace that is actually happening.
 - Notice that the calculation for the # of ways to make 5 cents will yield 2, so you cannot return immediately from your conditionals. Have 1 return statement at the end of the function to cover all of the conditionals other than the base cases.
 
-:white_check_mark: Question 2: Implement N-Queens
+:white_check_mark: Program 3: Implement N-Queens
 
 The N Queen is the problem of placing N chess queens on an N×N chessboard so that no two queens attack each other. For example, following is a solution for 4 Queen problem.
 
 <img src="images/queen.jpg"/>
 
-:white_check_mark: Question 3: Implement all possible N length binary strings.
+:white_check_mark: Program 4: Implement all possible N length binary strings.
 
-:white_check_mark: Question 4: Find Greatest Common Divisor (GCD) of 2 numbers using recursion.
+:white_check_mark: Program 5: Find Greatest Common Divisor (GCD) of 2 numbers using recursion.
 
