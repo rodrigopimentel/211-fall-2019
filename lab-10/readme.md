@@ -7,7 +7,7 @@ Welcome to CSC 211 Lab 10. Your goal for this lab will be to gain a better under
 3. Practive Stack and Tree Problems<br>
 4. Advanced Recursion<br>
 
-# 1. Recursive Stack behavior
+# 1. Recursive Stack Behavior
 
 It is important to truly understand the power of recursion we understand how these functions behave on the stack. In general, recursive functions build out long snaking stack frames that require a subsequent function call to complete. What this allows us to do is have partially completed calls to functions that resolve after a simpler version has resolved. For example copy and paste the following code into python tutor:
 
@@ -48,7 +48,7 @@ int foo(int a) {
 }
 ```
 
-# 3. Practive Stack and Tree Exercises
+# 3. Practice Stack and Tree Exercises
 
 The following problems are example solutions to some last weeks labs problems, we strongly encourage you to try and draw recursion trees and stack frames for some of the following.
 
