@@ -51,7 +51,6 @@ Your point class should work with the main function below.
 ```c++
 #include <iostream>
 #include "Point.h"
-using namespace std;
 
 //No need to touch the main.cpp file. However - if might be helpfull
 //to look at how I'm using your soon-to-be defined Point.cpp class
@@ -63,15 +62,15 @@ int main(){
 
     int myX = myPt.getX();
 
-    cout << myX << endl;
+    std::cout << myX << std::endl;
 
-    cout << myPt.toCord() << endl;
+    std::cout << myPt.toCord() << std::endl;
 
     myPt.setX(3);
 
-    cout << myPt.toCord() << endl;
+    std::cout << myPt.toCord() << std::endl;
 
-    cout << myPt.euDistance(myPt2) << endl;
+    std::cout << myPt.euDistance(myPt2) << std::endl;
 
 return 0;
 }
