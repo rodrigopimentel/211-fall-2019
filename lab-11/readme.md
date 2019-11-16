@@ -1,6 +1,6 @@
 # Lab 11: Classes
 
-Welcome to CSC 211 Lab 10. Your goal for this lab will be to gain a better understanding of advanced recursion methods and its uses. **Be sure to read and follow all instructions unless otherwise specified.**  Create a `lab-11.txt` document to record all of your lab answers in and implement all of your `.cpp` programs in your IDE.
+Welcome to CSC 211 Lab 11. Your goal for this lab will be to gain a better understanding of classes. **Be sure to read and follow all instructions unless otherwise specified.**  Create a `lab-11.txt` document to record all of your lab answers in and implement all of your `.cpp` programs in your IDE.
 
 1. Class Overview & Lecture [30 mins]<br>
 2. Exercises [75 mins]<br>
