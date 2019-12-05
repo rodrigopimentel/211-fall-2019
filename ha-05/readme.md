@@ -217,7 +217,7 @@ $ ./binarize image.bmp
 
 #### Your Task
 
-Using the `bitmap_image` library, your program should open the image using the `bitmap_image()` function and convert it to grayscale using the prebuilt `convert_to_grayscale()` function. There are a couple ways to convert an image to grayscale so this will make sure everyone obtains consistent results. Now your program should binarize the image using the *mean* pixel value as the threshold. Since the image has been converted to grayscale, the mean value will be some value between [0,255]. Pixels which fall below the threshold should be set to White (255,255,255), and those equal to or greater than the threshold should be set to Black (0,0,0).
+Using the `bitmap_image` library, your program should open the image using the `bitmap_image()` function and convert it to grayscale using the prebuilt `convert_to_grayscale()` function. There are a couple ways to convert an image to grayscale so this will make sure everyone obtains consistent results. Now your program should binarize the image using the *mean* pixel value as the threshold. Since the image has been converted to grayscale, the mean value will be some value between [0,255]. Pixels which fall below the threshold should be set to Black (0,0,0), and those equal to or greater than the threshold should be set to White (255,255,255).
 
 The link to download the library can be found [__here__](https://www.partow.net/programming/bitmap/index.html)
 
