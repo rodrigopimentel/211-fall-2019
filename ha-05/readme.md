@@ -187,7 +187,7 @@ $ ./sudoku puzzle.txt
 
 In computer vision, image segmentation is the process of partitioning a digital image into multiple segments (sets of pixels, also known as image objects). The goal of segmentation is to simplify and/or change the representation of an image into something that is more meaningful and easier to analyze. Image segmentation is typically used to locate objects and boundaries (lines, curves, etc.) in images. [Wikipedia]
 
-There are many ways to segment an image. However, the simplest way is called *thresholding*. When you threshold an image, you convert the image into black and white. You choose whether each individual pixel get turned black or white by comparing its intensity to some constant T. Intensity refers to the brightness of a color, white is the brightest and therefore the most intense, black is the darkest and the least intense. Pixels whose intensity is less than T become black, all others become white. This process can be simplified if you are working with a grayscale image where each pixel's intensity is defined by a single value from 0-255. The process of converting a grayscale image into purely black and white is called *Image Binarization*.
+There are many ways to segment an image. However, the simplest way is called *thresholding*. When you threshold an image, you convert the image into black and white. You choose whether each individual pixel get turned black or white by comparing its intensity to some constant value T. Intensity refers to the brightness of a color, white is the brightest and therefore the most intense, black is the darkest and the least intense. When applying thresholding, pixels whose intensity is **less than T** become black, all others become white. This process can be simplified if you are working with a grayscale image where each pixel's intensity is defined by a single value from 0-255. The process of converting an image into purely black and white is also called *Image Binarization*.
 
 A normal RGB image:
 
@@ -203,30 +203,30 @@ A grayscale image binarized:
 
 #### Input
 
-The input for this program is provided as command line arguments, as shown below:
+The input for this program is provided as two command line arguments, as shown below:
 ```text
-<image> File name for the image
+<image> File name for the input image
+<output_image> File name for the binarized image
 ```
-An input file is a .bmp image inside the same folder as your program. You should be able to open and manipulate .bmp images using the `bitmap_image` library shown in the lecture slides.
+An input image for this problem will be in `.bmp` format. You should be able to open and manipulate .bmp images using the `bitmap_image` library shown in the lecture slides.
 > Note: this library only works with 24-bit .bmp images, so if you try to test it using something else, it won't work. This includes 8-bit .bmp images.
 
-The line below shows an example of using your program:
+The line below shows an example of using your program.  The first command line argument indicates the input image and the the second command line argument indicates the name of the output image:
 ```bash
-$ ./binarize image.bmp
+$ ./binarize image.bmp binarized-image.bmp
 ```
 
 #### Your Task
 
-Using the `bitmap_image` library, your program should open the image using the `bitmap_image()` function and convert it to grayscale using the prebuilt `convert_to_grayscale()` function. There are a couple ways to convert an image to grayscale so this will make sure everyone obtains consistent results. Now your program should binarize the image using the *mean* pixel value as the threshold. Since the image has been converted to grayscale, the mean value will be some value between [0,255]. Pixels which fall below the threshold should be set to Black (0,0,0), and those equal to or greater than the threshold should be set to White (255,255,255).
+Using the `bitmap_image` library, your program should open the input image using the `bitmap_image()` function and convert it to grayscale using the prebuilt `convert_to_grayscale()` function. There are a couple ways to convert an image to grayscale so this will make sure everyone obtains consistent results. Now your program should binarize the image using the *mean* pixel value as the threshold. Since the image has been converted to grayscale, the mean value will be some value between [0,255]. Pixels which fall below the threshold should be set to Black (0,0,0), and those equal to or greater than the threshold should be set to White (255,255,255).
 
-The link to download the library can be found [__here__](https://www.partow.net/programming/bitmap/index.html)
+The link to download the library can be found [__here__](https://www.partow.net/programming/bitmap/index.html).
 
-The link to the library documentation can be found [__here__](http://www.partow.net/programming/bitmap/documentation/classbitmap__image.html)
+The link to the library documentation can be found [__here__](http://www.partow.net/programming/bitmap/documentation/classbitmap__image.html).
 
 #### Output
 
-Once the image has been converted into black-and-white and effectively binarized, you should save your modified image using the `save_image` function from the library. The name of the output image should follow the following format:
-`bw-<original image name>`. So if you program was given an input image `test01.bmp` the name of the modified image should be `bw-test01.bmp`.
+Once the image has been converted into black-and-white and effectively binarized, you should save your modified image using the `save_image` function from the library. The name of the output image should be the second command line argument (without any modifications).
 
 
 ### Submission and Grading
